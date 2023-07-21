@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+public static void main(String agrs[]) {
+ Scanner obj=new Scanner(System.in);
+ int num,row,col;
+ num=obj.nextInt();
+ for(row=1;row<=num;row++,System.out.print("\n"))
+ {
+	 for(col=1;col<=num;col++)
+		 System.out.print(row%2);
+}
+}}
